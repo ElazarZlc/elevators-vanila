@@ -1,0 +1,27 @@
+﻿*{
+margin: 0;
+box-sizing: border-box;
+}
+body {
+padding-top: 10px;
+padding-left: 10px;
+}
+#building {
+min-height: 90vh;
+min-width: 90vw;
+display: flex;
+align-items: end;
+background-color: aqua;
+}
+#floors {
+width: 250px;
+display: flex;
+flex-direction: column-reverse;
+justify-content: end;
+background-color: blue;
+}
+#elevators {
+display: flex;
+align-items: end;
+background-color: green;
+}
